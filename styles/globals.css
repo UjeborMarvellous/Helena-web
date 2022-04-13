@@ -1,16 +1,184 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+.BA {
+    padding: 0 5%;
+    width: 100%;
+    height: 700px;
 }
-
-* {
-  box-sizing: border-box;
+.GH {
+    margin: 5% 10%;
+}
+.pt {
+    padding: 20% 0 20% 60%;
+}
+.GRID {
+    margin: 5% 11%;
+    gap: 1.5%;
+}
+.det {
+    margin-right: 20%;
+}
+.grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10% 10% 3% 10%;
+    gap: 5%;
+}
+@media screen and (max-width:768px) {
+    .GH {
+        margin: 5% 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3%;
+    }
+    .px {
+        padding: 0.5rem 1.5rem;
+    }
+    .BAG {
+        display: none;
+    }
+    .grids {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10% 5%;
+        gap: 5%;
+    }
+    .stem {
+        position: fixed;
+    }
+    .BX {
+        padding-bottom: 2rem;
+    }
+    .LEFT {
+        margin-right: auto;
+    }
+    .md {
+        display: none;
+    }
+    .BA {
+        padding: 5.7% 5%;
+        width: 100%;
+        height: 500px;
+    }
+    .FG {
+        font-size: 2rem;
+    }
+    .Fm {
+        font-size: 25px;
+    }
+    .AK {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 7% 23%;
+    }
+    .MB {
+        margin-bottom: 9%;
+    }
+    .GRID {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 7% 25%;
+    }
+    .sep {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3%;
+    }
+    .MT {
+        margin-top: 5%;
+    }
+    .det {
+        margin-right: 0%;
+    }
+    .RA {
+        margin-top: 2rem;
+    }
+    .det {
+        text-align: center;
+    }
+    .HA {
+        font-size: 20px;
+    }
+    .AN {
+        margin: 6% auto;
+    }
+}
+@media screen and (max-width:425px) {
+    .md {
+        display: none;
+    }
+    .head {
+        padding-top: 20%;
+    }
+    .stem {
+        position: fixed;
+    }
+    .BA {
+        margin-left: 5%;
+        width: 100%;
+        height: 300px;
+    }
+    .FG {
+        font-size: 1.5rem;
+    }
+    .BTN {
+        padding: 0.5rem 0.5rem;
+        white-space: nowrap;
+    }
+    .BTN:hover {
+        padding: 0.5rem 0.5rem !important;
+        white-space: nowrap;
+    }
+    .Fm {
+        font-size: 12px;
+    }
+    .AK {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 7% 8%;
+    }
+    .MB {
+        margin-bottom: 9%;
+    }
+    .GRID {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 7% 10%;
+    }
+    .HA {
+        font-size: 12px;
+    }
+    .AN {
+        padding: 0.5rem 1rem;
+    }
+    .sep {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .TN {
+        margin-top: 30%;
+    }
+    .grids {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10% 5% 10% 5%;
+    }
+    .sm {
+        font-weight: 300;
+    }
+    .GH {
+        margin: 5% 10%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3%;
+    }
+    .px {
+        padding: 0.5rem 5rem;
+        margin-bottom: 3%;
+    }
+    .HK {
+        margin: 3% 30%;
+    }
 }
