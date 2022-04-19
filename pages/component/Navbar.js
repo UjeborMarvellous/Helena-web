@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import {Transition} from "@headlessui/react";
-import { Link } from "react-scroll";
 import { GoSearch } from "react-icons/go"
 
 
@@ -15,21 +14,21 @@ function Navbar() {
                             <div className=" mx-24 flex items items-center bg-white justify-between w-full">
                                 <div className="hidden md:block">
                                     <div className="flex items-baseline space-x-4 BAG">
-                                            <Link activeClass="Home" smooth={true} offset={50} duration={500} className="cursor-pointer px-3 py-2 text-md hover:font-block">Home</Link>
-                                            <Link activeClass="Product" smooth={true} offset={50} duration={500} className="cursor-pointer px-3 py-2 text-md hover:text-red">Shop</Link>
-                                            <Link activeClass="Pricing" smooth={true} offset={50} duration={500} className="cursor-pointer px-3 py-2 text-md hover:text-red">Pages</Link>
-                                            <Link activeClass="About" smooth={true} offset={50} duration={500} className="cursor-pointer px-3 py-2 text-md hover:text-red">Elements</Link>
-                                        </div>
+                                        <a href="/" className="px-3 py-2 text-md hover:font-block">Home</a>
+                                        <a href="/component/Shop-file/Shop" className="px-3 py-2 text-md hover:font-block">Shop</a>
+                                        <a href="/" className="px-3 py-2 text-md hover:font-block">Pages</a>
+                                        <a href="/" className="px-3 py-2 text-md hover:font-block">Elements</a>
+                                    </div>
                                     </div>
                                     <div className="flex justify-center items-center flex-shrink-0 LEFT">
                                         <i><h1 className="font-bold text-center text-5xl cursor-pointer">halena</h1></i>
                                     </div>
                                     <div className="btn md">
                                         <div className="flex">
-                                            <Link activeClass="Store Locator" smooth={true} offset={50} duration={500} className="cursor-pointer text-black font-semibold px-3 py-1 text-md hover:font-block border-current border-2">Store Locator</Link>
-                                            <Link activeClass="My Account" smooth={true} offset={50} duration={500} className="cursor-pointer text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</Link>
-                                            <p className="my-auto text-xl font-thin"><GoSearch /></p>
-                                            <Link activeClass="Cart page" smooth={true} offset={50} duration={500} className="cursor-pointer text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</Link>
+                                            <a href="/" className="cursor-pointer text-black font-semibold px-3 py-1 text-md hover:font-block border-current border-2">Store Locator</a>
+                                            <a href="/" className="cursor-pointer text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</a>
+                                            <a href="/" className="my-auto text-xl font-thin"><GoSearch /></a>
+                                            <a href="/" className="cursor-pointer text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>
                                         </div>
                                     </div>
                                </div>
@@ -54,18 +53,17 @@ function Navbar() {
                     {(ref) => (
                         <div className="lg:hidden id=mobile-menu bg-white">
                             <div ref={ref} className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                                <Link href="/home" activeClass="home" to="home" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
-                                <Link href="/product" activeClass="home" to="home" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Product</Link>
-                                <Link href="/pricing" activeClass="home" to="home" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Pricing</Link>
-                                <Link href="/about" activeClass="home" to="home" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
-                                <Link href="/contact us" activeClass="home" to="home" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact Us</Link>
+                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                                <a href="/component/Shop-file/Shop"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Shop</a>
+                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Pages</a>
+                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">HomeElement</a>
                             </div>
                             <div className="btn mx-8 BX">
                                 <div className="flex">
-                                    <Link activeClass="Store Locator" smooth={true} offset={50} duration={500} className="cursor-pointer whitespace-nowrap text-black font-semibold px-6 py-2 text-md hover:font-block border-current border-2">Store Locator</Link>
-                                    <Link activeClass="My Account" smooth={true} offset={50} duration={500} className="cursor-pointer whitespace-nowrap text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</Link>
-                                    <p className="my-auto text-xl font-thin hidden"><GoSearch /></p>
-                                    <Link activeClass="Cart page" smooth={true} offset={50} duration={500} className="cursor-pointer hidden text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</Link>
+                                    <a href="/" className="cursor-pointer whitespace-nowrap text-black font-semibold px-6 py-2 text-md hover:font-block border-current border-2">Store Locator</a>
+                                    <a href="/" className="cursor-pointer whitespace-nowrap text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</a>
+                                    <a href="/" className="my-auto text-xl font-thin hidden"><GoSearch /></a>
+                                    <a href="/" className="cursor-pointer hidden text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>
                                 </div>
                             </div>
                         </div>
