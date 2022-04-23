@@ -1,13 +1,11 @@
 import { useState } from "react";
 import {Transition} from "@headlessui/react";
-import { Link } from "react-scroll";
 import { GoSearch } from "react-icons/go"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md"
 import { FaFacebookF } from "react-icons/fa"
 import { BsTwitter } from "react-icons/bs"
 import { FaWhatsapp } from "react-icons/fa"
 import { SiInstagram } from "react-icons/si"
-import { BiMenuAltLeft } from "react-icons/bi"
 
 
 
@@ -17,71 +15,7 @@ function Navbar() {
     const [open,setOpen] = useState(false);
     return ( 
         <div className="">
-            <nav className="w-full stem BG z-10">
-                <div className="w-full bg-white">
-                    <div className="flex items-center h-20 w-full">
-                        <div className="flex items items-center py-4 bg-white justify-between w-full">
-                            <div className=" mx-24 flex items items-center bg-white justify-between w-full">
-                                <div className="hidden md:block">
-                                    <div className="flex items-baseline space-x-4 BAG">
-                                        <a href="/" className="px-3 py-2 text-md hover:font-block">Home</a>
-                                        <a href="/component/Shop-file/Shop" className="px-3 py-2 text-md hover:font-block">Shop</a>
-                                        <a href="/" className="px-3 py-2 text-md hover:font-block">Pages</a>
-                                        <a href="/" className="px-3 py-2 text-md hover:font-block">Elements</a>
-                                    </div>
-                                    </div>
-                                    <div className="flex justify-center items-center flex-shrink-0 LEFT">
-                                        <i><h1 className="font-bold text-center text-5xl cursor-pointer">halena</h1></i>
-                                    </div>
-                                    <div className="btn md">
-                                        <div className="flex">
-                                            <a href="/" className="cursor-pointer text-black font-semibold px-3 py-1 text-md hover:font-block border-current border-2">Store Locator</a>
-                                            <a href="/" className="cursor-pointer text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</a>
-                                            <a href="/" className="my-auto text-xl font-thin"><GoSearch /></a>
-                                            <a href="/" className="cursor-pointer text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>
-                                        </div>
-                                    </div>
-                               </div>
-                            
-                            </div>
-                            <div className="mr-10 flex lg:hidden">
-                                <button onClick={() => setIsOpen(!isOpen)} type="button" className="bg-black items-center justify-center p-2 rounded-md text-white hover:bg-black focus: outline-none focus:ring-offset-2 focus:ring-offset-black focus:ring-white" aria-controls="mobile-menu" aria-expanded="false"><span className="sr-only">Open main menu</span>
-                                    {!isOpen ? (
-                                        <svg className="block h-6 w-6" xmlns="http:www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16M4"></path>
-                                        </svg>
-                                    ):(
-                                        <svg className="block h-6 w-6" xmlns="http:www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
-                                        </svg>
-                                    )}
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="transition ease-in duration-75 transform" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
-                    {(ref) => (
-                        <div className="lg:hidden id=mobile-menu bg-white absolute z-50 w-full">
-                            <div ref={ref} className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
-                                <a href="/component/Shop-file/Shop"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Shop</a>
-                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Pages</a>
-                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">HomeElement</a>
-                            </div>
-                            <div className="btn mx-8 BX">
-                                <div className="flex">
-                                    <a href="/" className="cursor-pointer whitespace-nowrap text-black font-semibold px-6 py-2 text-md hover:font-block border-current border-2">Store Locator</a>
-                                    <a href="/" className="cursor-pointer whitespace-nowrap text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</a>
-                                    <a href="/" className="my-auto text-xl font-thin hidden"><GoSearch /></a>
-                                    <a href="/" className="cursor-pointer hidden text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    )}
-                </Transition>
-            </nav>
-            <div className="lg:grid lg:grid-cols-1 Ag">
+                    <div className="lg:grid lg:grid-cols-1 Ag">
                     <div className="grid grid-cols-6 g mt-12 mx-12 MX">
                         <div className="one">
                             <h1 className="text-lg">Categories</h1>
@@ -219,70 +153,70 @@ function Navbar() {
                             </div>
                             <div className="imgs grid grid-cols-4 gray mx-16">
                                 <figure>
-                                    <img src="/sh1.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth"><img src="/sh1.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh2.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth2"><img src="/sh2.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh3.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth3"><img src="/sh3.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh4.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth4"><img src="/sh4.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh5.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth5"><img src="/sh5.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh6.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth6"><img src="/sh6.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh7.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth7"><img src="/sh7.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh8.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth8"><img src="/sh8.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh9.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth9"><img src="/sh9.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure className="get">
-                                    <img src="/sh10.jpg" alt="Loading..." className="absolute opacity-50 h-2/4"/>
+                                    <a href="./Clothpage/Cloth10"><img src="/sh10.jpg" alt="Loading..." className="absolute opacity-50 h-2/4"/></a>
                                     <p className="relative text-center mt-32">SOLD OUT</p>
                                     <figcaption className="mt-52 opacity-50 ">
                                         <p className="text-center text-opacity-100">Regular Fit V-Neck Sweater</p>
@@ -290,7 +224,7 @@ function Navbar() {
                                     </figcaption>
                                 </figure>
                                 <figure className="get">
-                                    <img src="/sh11.jpg" alt="Loading..." className="absolute opacity-50 h-2/4"/>
+                                    <a href="./Clothpage/Cloth11"><img src="/sh11.jpg" alt="Loading..." className="absolute opacity-50 h-2/4"/></a>
                                     <p className="relative text-center mt-32">SOLD OUT</p>
                                     <figcaption className="mt-52 opacity-50 ">
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
@@ -298,35 +232,35 @@ function Navbar() {
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh12.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth12"><img src="/sh12.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh13.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth13"><img src="/sh13.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh14.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth14"><img src="/sh14.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh15.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth15"><img src="/sh15.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="/sh16.jpg" alt="Loading..." className=""/>
+                                    <a href="./Clothpage/Cloth16"><img src="/sh16.jpg" alt="Loading..." className=""/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
@@ -354,7 +288,7 @@ function Navbar() {
                                 <p className="text-gray-500 mt-16 text-white whitespace-nowrap RES">Copyright © AgniHD 2017 All Rights Reserved.</p>
                             </div>
                             <div className="two ml-auto">
-                                <div className="Sec flex">
+                                <div className="Sec lg:flex">
                                     <p className="mt-2"><a href="/" className="mt-12 text-white whitespace-nowrap">Terms & Policies&nbsp;/&nbsp;</a></p>
                                     <p className="mt-2"><a href="/" className="mt-12 text-white whitespace-nowrap">FAQ&nbsp;/&nbsp;</a></p>
                                     <p className="mt-2"><a href="/" className="mt-12 text-white whitespace-nowrap">Contact Us&nbsp;/&nbsp;</a></p>
