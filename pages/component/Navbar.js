@@ -21,7 +21,7 @@ function Navbar() {
                                     </div>
                                     </div>
                                     <div className="flex justify-center items-center flex-shrink-0 LEFT">
-                                        <i><h1 className="font-bold text-center text-5xl cursor-pointer">halena</h1></i>
+                                        <i><h1 className="font-bold text-center text-5xl cursor-pointer">Mavric</h1></i>
                                     </div>
                                     <div className="btn md">
                                         <div className="flex">

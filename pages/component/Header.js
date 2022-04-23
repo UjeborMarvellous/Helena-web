@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs"
 export default function Header() {
   return (
     <div>
-      <main>
+        <main>
             <div className="head">
                 <img src="/1.jpg" alt="Loading..." className="BA absolute"/>
                 <div className="relative pt">
