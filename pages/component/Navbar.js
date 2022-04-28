@@ -16,12 +16,12 @@ function Navbar() {
                                     <div className="flex items-baseline space-x-4 BAG">
                                         <a href="/" className="px-3 py-2 text-md hover:font-block">Home</a>
                                         <a href="/component/Shop-file/Shop" className="px-3 py-2 text-md hover:font-block">Shop</a>
-                                        <a href="/" className="px-3 py-2 text-md hover:font-block">Pages</a>
-                                        <a href="/" className="px-3 py-2 text-md hover:font-block">Elements</a>
+                                        <a href="/component/PhotoGallery" className="px-3 py-2 text-md hover:font-block">Photo Gallery</a>
+                                        <a href="/Video" className="px-3 py-2 text-md hover:font-block">Video Gallery</a>
                                     </div>
                                     </div>
                                     <div className="flex justify-center items-center flex-shrink-0 LEFT">
-                                        <i><h1 className="font-bold text-center text-5xl cursor-pointer">Mavric</h1></i>
+                                        <i><a href="/" className="font-bold text-center text-5xl cursor-pointer">Mavric</a></i>
                                     </div>
                                     <div className="btn md">
                                         <div className="flex">
@@ -55,8 +55,8 @@ function Navbar() {
                             <div ref={ref} className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
                                 <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
                                 <a href="/component/Shop-file/Shop"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Shop</a>
-                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Pages</a>
-                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">HomeElement</a>
+                                <a  href="/component/PhotoGallery"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Photo Gallery</a>
+                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Video Gallery</a>
                             </div>
                             <div className="btn mx-8 BX">
                                 <div className="flex">
