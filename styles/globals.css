@@ -62,12 +62,33 @@
     margin-left: 40%;
     margin-top: 9%;
 }
+.GT:hover {
+    transform: scale(0.9);
+}
 @media screen and (max-width:768px) {
+    .CLASS {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .fon {
+        font-size: 20px;
+    }
+    .XL {
+        font-size: 1.2rem !important;
+    }
     .ml {
+        margin-left: 70%;
+        z-index: 10004;
+        background-color: white;
+    }
+    .sA {
         display: none;
     }
     .MR {
-        display: none;
+        margin-left: 70%;
+        margin-top: 30%;
+        z-index: 10004;
+        background-color: white;
     }
     .SIZE {
         width: 85%;
@@ -100,8 +121,11 @@
     }
     .GB {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         margin: 0;
+    }
+    .HK {
+        display: none;
     }
     .GH {
         margin: 5% 10%;
@@ -321,5 +345,8 @@
     .SIZ {
         width: 80%;
         margin: 3% 8%;
+    }
+    .sA {
+        display: none;
     }
 }
