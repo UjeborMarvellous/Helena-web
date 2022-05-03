@@ -66,6 +66,9 @@
     transform: scale(0.9);
 }
 @media screen and (max-width:768px) {
+    .fur {
+        margin: 0 2%;
+    }
     .CLASS {
         display: grid;
         grid-template-columns: 1fr;
@@ -222,6 +225,10 @@
     }
 }
 @media screen and (max-width:425px) {
+    .fur {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .GB {
         display: grid;
         grid-template-columns: 1fr;
