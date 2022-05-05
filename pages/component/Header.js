@@ -14,7 +14,7 @@ export default function Header() {
             <p className="text-center font-normal text-black text-4xl relative my-8 Fm">Gorgeous collection to choose from. We picked every item with care <span className="pt-4"> <br />you must try atleast once in your lifetime</span></p>
             <div className="grid grid-cols-3 mx-32 my-24 AK">
                 <figure>
-                <img src="/2.jpg" alt="Loading..." className=""/>
+                <img src="/2.jpg" alt="Loading..." className="" loading="lazy"/>
                     <figcaption>
                         <p className="font-semibold text-2xl my-4 text-center">Start your shopping by categories</p>
                         <p className=" whitespace-nowrap font-thin text-lg text-center"><a href="/">GO TO CATEGORIES</a></p>
@@ -22,7 +22,7 @@ export default function Header() {
                     </figcaption>
                 </figure>
                 <figure>
-                <img src="/3.jpg" alt="Loading..." className=""/>
+                <img src="/3.jpg" alt="Loading..." className="" loading="lazy"/>
                     <figcaption>
                         <p className="font-semibold text-2xl my-4 text-center">Don’t waste your time, just go to shop and start buying</p>
                         <p className=" whitespace-nowrap font-thin text-lg text-center"><a href="/">OUR SHOP</a></p>
@@ -30,7 +30,7 @@ export default function Header() {
                     </figcaption>
                 </figure>
                 <figure>
-                <img src="/4.jpg" alt="Loading..." className=""/>
+                <img src="/4.jpg" alt="Loading..." className="" loading="lazy"/>
                     <figcaption> 
                         <p className="font-semibold text-2xl my-4 text-center">Choose by looking how item used</p>
                         <p className=" whitespace-nowrap font-thin text-lg text-center"><a href="/">LOOKBOOK</a></p>
@@ -42,28 +42,28 @@ export default function Header() {
             <p className=" border-current border-b-2 block mx-auto w-20"></p>
             <div className="grid grid-cols-4 my-24 GRID">
                 <figure className="">
-                    <img src="/5.jpg" alt="Loading..."/>
+                    <img src="/5.jpg" alt="Loading..." loading="lazy"/>
                     <figcaption className="">
                         <p className="font-semibold text-lg mt-2"><a href="/">Peeler Black</a></p>
                         <p className="font-thin text-lg">$24.00</p>
                     </figcaption>
                 </figure>
                 <figure>
-                <img src="/6.jpg" alt="Loading..." className=""/>
+                <img src="/6.jpg" alt="Loading..." className="" loading="lazy"/>
                     <figcaption>
                         <p className="font-semibold text-lg mt-2"><a href="/">Bold Wall Clock White</a></p>
                         <p className=" whitespace-nowrap font-thin text-lg"><span className="line-through opacity-50">$135.00</span> $119.00</p>
                     </figcaption>
                 </figure>
                 <figure>
-                <img src="/8.jpg" alt="Loading..." className=""/>
+                <img src="/8.jpg" alt="Loading..." className="" loading="lazy"/>
                     <figcaption> 
                         <p className="font-semibold text-lg mt-2"><a href="/">Ducky grey</a></p>
                         <p className=" whitespace-nowrap font-thin text-lg">$38.00</p>
                     </figcaption>
                 </figure>
                 <figure>
-                <img src="/7.jpg" alt="Loading..." className=""/>
+                <img src="/7.jpg" alt="Loading..." className="" loading="lazy"/>
                     <figcaption> 
                         <p className="font-semibold text-lg mt-2"><a href="/">Astro Tray all</a></p>
                         <p className=" whitespace-nowrap font-thin text-lg">$16.00</p>
@@ -77,13 +77,13 @@ export default function Header() {
                     <button className="AN bg-white text-black font-semibold py-4 mt-8 px-16 flex z-50 hover:border-2 hover:bg-transparent hover:text-white hover:border-white hover:py-4 hover:px-16 ">SEE WHAT WE DO&nbsp;&nbsp;&nbsp;<span className="my-auto text-2xl font-thin"><BsArrowRight /></span></button>
                 </div>
                 <div className="img ">
-                    <img src="/9.jpg" alt="Loading..." className="RA"/>
+                    <img src="/9.jpg" alt="Loading..." className="RA" loading="lazy"/>
                 </div>
             </div>
             <div className="grid mb-6">
                 <div className="grids">
-                    <img src="/10.jpg" alt="Loading..." className="RA"/>
-                    <img src="/11.jpg" alt="Loading..." className="RA"/>
+                    <img src="/10.jpg" alt="Loading..." className="RA" loading="lazy"/>
+                    <img src="/11.jpg" alt="Loading..." className="RA" loading="lazy"/>
                 </div>
                 <div className="text">
                     <h1 className="text-center text-2xl font-semibold sm">Simply looking at the items are not enough to imagine. So we have a well-made lookbook to display our</h1>
@@ -96,7 +96,7 @@ export default function Header() {
                 <p className=" border-current border-b-2 block mx-auto w-20"></p>
                 <div className="grid grid-cols-3 mx-32 my-24 AK gap-6">
                     <figure>
-                    <img src="/12.jpg" alt="Loading..." className=""/>
+                    <img src="/12.jpg" alt="Loading..." className="" loading="lazy"/>
                         <figcaption>
                             <p className="font-thin text-lg text-gray-400 mt-4">DECEMBER 16, 2017</p>
                             <p className="font-semibold text-2xl my-2">Winter Collection ’17 by Martha Beck</p>
@@ -105,7 +105,7 @@ export default function Header() {
                         </figcaption>
                     </figure>
                     <figure>
-                    <img src="/13.jpg" alt="Loading..." className=""/>
+                    <img src="/13.jpg" alt="Loading..." className="" loading="lazy"/>
                         <figcaption>
                             <p className="font-thin text-lg text-gray-400 mt-4">DECEMBER 17, 2017</p>
                             <p className="font-semibold text-2xl my-2">10 Nordic items to make your living space awesome</p>
@@ -114,7 +114,7 @@ export default function Header() {
                         </figcaption>
                     </figure>
                     <figure>
-                    <img src="/14.jpg" alt="Loading..." className=""/>
+                    <img src="/14.jpg" alt="Loading..." className="" loading="lazy"/>
                         <figcaption> 
                             <p className="font-thin text-lg text-gray-400 mt-4">DECEMBER 16, 2017</p>
                             <p className="font-semibold text-2xl my-2">New Launch – Normann Copenhangen rise wall lamp</p>
