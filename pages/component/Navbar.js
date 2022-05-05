@@ -25,7 +25,7 @@ function Navbar() {
                                     </div>
                                     <div className="btn md">
                                         <div className="flex">
-                                            <a href="/" className="cursor-pointer text-black font-semibold px-3 py-1 text-md hover:font-block border-current border-2">Store Locator</a>
+                                            <a href="/Store" className="cursor-pointer text-black font-semibold px-3 py-1 text-md hover:font-block border-current border-2">Contact us</a>
                                             <a href="/" className="cursor-pointer text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</a>
                                             <a href="/" className="my-auto text-xl font-thin"><GoSearch /></a>
                                             <a href="/" className="cursor-pointer text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>
@@ -56,11 +56,11 @@ function Navbar() {
                                 <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
                                 <a href="/component/Shop-file/Shop"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Shop</a>
                                 <a  href="/component/PhotoGallery"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Photo Gallery</a>
-                                <a href="/"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Video Gallery</a>
+                                <a href="/Video"  className="cursor-pointer hover:bg-blue-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Video Gallery</a>
                             </div>
                             <div className="btn mx-8 BX">
                                 <div className="flex">
-                                    <a href="/" className="cursor-pointer whitespace-nowrap text-black font-semibold px-6 py-2 text-md hover:font-block border-current border-2">Store Locator</a>
+                                    <a href="/Store" className="cursor-pointer whitespace-nowrap text-black font-semibold px-6 py-2 text-md hover:font-block border-current border-2">Contact us</a>
                                     <a href="/" className="cursor-pointer whitespace-nowrap text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</a>
                                     <a href="/" className="my-auto text-xl font-thin hidden"><GoSearch /></a>
                                     <a href="/" className="cursor-pointer hidden text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>

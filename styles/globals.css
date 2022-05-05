@@ -65,7 +65,17 @@
 .GT:hover {
     transform: scale(0.9);
 }
+.full {
+    height: 400px;
+}
+.min {
+    height: 500px;
+}
 @media screen and (max-width:768px) {
+    .MN {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .fur {
         margin: 0 2%;
     }
@@ -223,8 +233,20 @@
     .AN {
         margin: 6% auto;
     }
+    .ml{
+        margin: 0 10px;
+        text-align: center;
+    }
 }
 @media screen and (max-width:425px) {
+    .MN {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 3% 4%;
+    }
+    .ml{
+        margin: 0 10px;
+    }
     .fur {
         display: grid;
         grid-template-columns: 1fr;
