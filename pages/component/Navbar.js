@@ -26,7 +26,7 @@ function Navbar() {
                                     <div className="btn md">
                                         <div className="flex">
                                             <a href="/Store" className="cursor-pointer text-black font-semibold px-3 py-1 text-md hover:font-block border-current border-2">Contact us</a>
-                                            <a href="/" className="cursor-pointer text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</a>
+                                            <p className="cursor-pointer text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</p>
                                             <a href="/" className="my-auto text-xl font-thin"><GoSearch /></a>
                                             <a href="/" className="cursor-pointer text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>
                                         </div>

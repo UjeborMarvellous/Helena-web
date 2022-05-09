@@ -10,7 +10,7 @@ import { SiInstagram } from "react-icons/si"
 
 
 
-function Navbar() {
+function Pink() {
     const [isOpen,setIsOpen] = useState(false);
     const [open,setOpen] = useState(false);
     return ( 
@@ -38,14 +38,14 @@ function Navbar() {
                                 <h1 className="text-lg">By Colours</h1>
                                 <p className=" border-current border-b w-12"></p>
                                 <div className="col flex mt-6">
-                                    <a href="/"><p className="p-3 bg-red-200 ml-4"></p></a>
-                                    <a href="/"><p className="p-3 bg-gray-800 ml-4"></p></a>
-                                    <a href="/"><p className="p-3 bg-orange-900 ml-4"></p></a>
-                                    <a href="/"><p className="p-3 bg-yellow-900 ml-4"></p></a>
+                                    <a href="/Pink"><p className="p-3 bg-red-200 ml-4"></p></a>
+                                    <a href="/Darkblue"><p className="p-3 bg-gray-800 ml-4"></p></a>
+                                    <a href="/Darkbrown"><p className="p-3 bg-orange-900 ml-4"></p></a>
+                                    <a href="/Lightbrown"><p className="p-3 bg-yellow-900 ml-4"></p></a>
                                 </div>
                                 <div className="dev flex mt-3">
-                                    <a href="/"><p className="p-3 bg-indigo-300 ml-4"></p></a>
-                                    <a href="/"><p className="p-3 bg-pink-600 ml-4"></p></a>
+                                    <a href="/Skyblue"><p className="p-3 bg-indigo-300 ml-4"></p></a>
+                                    <a href="/Darkpink"><p className="p-3 bg-pink-600 ml-4"></p></a>
                                 </div>
                             </div>
                             <hr className="my-6"/>
@@ -105,14 +105,14 @@ function Navbar() {
                                             <h1 className="text-lg">By Colours</h1>
                                             <p className=" border-current border-b w-12"></p>
                                             <div className="col flex mt-6">
-                                                <a href="/"><p className="p-3 bg-red-200 ml-4"></p></a>
-                                                <a href="/"><p className="p-3 bg-gray-800 ml-4"></p></a>
-                                                <a href="/"><p className="p-3 bg-orange-900 ml-4"></p></a>
-                                                <a href="/"><p className="p-3 bg-yellow-900 ml-4"></p></a>
+                                                <a href="/Pink"><p className="p-3 bg-red-200 ml-4"></p></a>
+                                                <a href="/Darkblue"><p className="p-3 bg-gray-800 ml-4"></p></a>
+                                                <a href="/Darkbrown"><p className="p-3 bg-orange-900 ml-4"></p></a>
+                                                <a href="/Lightbrown"><p className="p-3 bg-yellow-900 ml-4"></p></a>
                                             </div>
                                             <div className="dev flex mt-3">
-                                                <a href="/"><p className="p-3 bg-indigo-300 ml-4"></p></a>
-                                                <a href="/"><p className="p-3 bg-pink-600 ml-4"></p></a>
+                                                <a href="/Skyblue"><p className="p-3 bg-indigo-300 ml-4"></p></a>
+                                                <a href="/Darkpink"><p className="p-3 bg-pink-600 ml-4"></p></a>
                                             </div>
                                         </div>
                                         <hr className="my-6"/>
@@ -153,114 +153,114 @@ function Navbar() {
                             </div>
                             <div className="imgs grid grid-cols-4 gray mx-16">
                                 <figure>
-                                    <a href="./Clothpage/Cloth"><img src="/sh1.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture"><img src="/sh1.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth2"><img src="/sh2.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture2"><img src="/sh2.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth3"><img src="/sh3.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture3"><img src="/sh3.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth4"><img src="/sh4.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture4"><img src="/sh4.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth5"><img src="/sh5.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture5"><img src="/sh5.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth6"><img src="/sh6.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture6"><img src="/sh6.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth7"><img src="/sh7.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture7"><img src="/sh7.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth8"><img src="/sh8.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture8"><img src="/sh8.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth9"><img src="/sh9.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture9"><img src="/sh9.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure className="get">
-                                    <a href="./Clothpage/Cloth10"><img src="/sh10.jpg" alt="Loading..." className="absolute opacity-50 h-2/4"/></a>
+                                    <a href="./Furniturepage/furniture10"><img src="/sh10.jpg" alt="Loading..." className="h-72 W object-contain absolute opacity-50"/></a>
                                     <p className="relative text-center mt-32">SOLD OUT</p>
-                                    <figcaption className="mt-52 opacity-50 ">
+                                    <figcaption className="mt-32 opacity-50 ">
                                         <p className="text-center text-opacity-100">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure className="get">
-                                    <a href="./Clothpage/Cloth11"><img src="/sh11.jpg" alt="Loading..." className="absolute opacity-50 h-2/4"/></a>
+                                    <a href="./Furniturepage/furniture11"><img src="/sh11.jpg" alt="Loading..." className="h-72 W object-contain absolute opacity-50"/></a>
                                     <p className="relative text-center mt-32">SOLD OUT</p>
-                                    <figcaption className="mt-52 opacity-50 ">
+                                    <figcaption className="mt-32 opacity-50 ">
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth12"><img src="/sh12.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture12"><img src="/sh12.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth13"><img src="/sh13.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture13"><img src="/sh13.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth14"><img src="/sh14.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture14"><img src="/sh14.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth15"><img src="/sh15.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture15"><img src="/sh15.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
                                     </figcaption>
                                 </figure>
                                 <figure>
-                                    <a href="./Clothpage/Cloth16"><img src="/sh16.jpg" alt="Loading..." className=""/></a>
+                                    <a href="./Furniturepage/furniture16"><img src="/sh16.jpg" alt="Loading..." className="h-72 W object-contain"/></a>
                                     <figcaption>
                                         <p className="text-center">Regular Fit V-Neck Sweater</p>
                                         <p className="text-center">$49.00</p>
@@ -302,4 +302,4 @@ function Navbar() {
      );
 }
  
-export default Navbar;
+export default Pink;

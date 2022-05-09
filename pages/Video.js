@@ -37,28 +37,28 @@ const Video = () => {
             </div>
         </div>
         <div className=" mt-16">
-            <h1 className="font-bold text-center text-4xl my-10">CLOTHES</h1>
+            <h1 className="font-bold text-center text-4xl my-10">Bed Set</h1>
             <div className="grid grid-cols-2 gap-8 mx-24 fur">
                 <figure>
-                    <ReactPlayer className="wth" width="100%" controls url="https://www.youtube.com/watch?v=sGfRuQ1CG2s"/>
+                    <ReactPlayer className="wth" width="100%" controls url="https://www.youtube.com/watch?v=lQ41TIGhovM"/>
                     <figcaption>
                         <p className="font-semibold mt-6 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, ducimus corporis? Quam totam ab consequatur assumenda soluta placeat vitae temporibus.</p>
                     </figcaption>
                 </figure>
                 <figure>
-                    <ReactPlayer className="wth" width="100%" controls url="youtube.com/watch?v=A1CXIHkHvb0"/>
+                    <ReactPlayer className="wth" width="100%" controls url="https://www.youtube.com/watch?v=aU9XG38WEwg"/>
                     <figcaption>
                         <p className="font-semibold mt-6 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, ducimus corporis? Quam totam ab consequatur assumenda soluta placeat vitae temporibus.</p>
                     </figcaption>
                 </figure>
                 <figure>
-                    <ReactPlayer className="wth" width="100%" controls url="https://www.youtube.com/watch?v=gISNogQdJo4"/>
+                    <ReactPlayer className="wth" width="100%" controls url="https://www.youtube.com/watch?v=K5T_Vuzdm1I"/>
                     <figcaption>
                         <p className="font-semibold mt-6 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, ducimus corporis? Quam totam ab consequatur assumenda soluta placeat vitae temporibus.</p>
                     </figcaption>
                 </figure>
                 <figure>
-                    <ReactPlayer className="wth" width="100%" controls url="https://www.youtube.com/watch?v=t4Y5K2EmcUA"/>
+                    <ReactPlayer className="wth" width="100%" controls url="https://www.youtube.com/watch?v=AG10aZASOtU"/>
                     <figcaption>
                         <p className="font-semibold mt-6 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, ducimus corporis? Quam totam ab consequatur assumenda soluta placeat vitae temporibus.</p>
                     </figcaption>
@@ -75,7 +75,7 @@ const Video = () => {
                         <a href="/" className="text-3xl ml-10 mt-8 text-white"><FaWhatsapp /></a>
                         <a href="/" className="text-3xl ml-10 mt-8 text-white"><SiInstagram /></a>
                     </div>
-                    <p className="text-gray-500 mt-16 text-white whitespace-nowrap RES">Copyright © AgniHD 2017 All Rights Reserved.</p>
+                    <p className="text-white ml-6 mt-16 text-white whitespace-nowrap RES">Copyright © AgniHD 2017 All Rights Reserved.</p>
                 </div>
                 <div className="two ml-auto">
                     <div className="Sec sm:flex FLEX">

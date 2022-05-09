@@ -8,23 +8,25 @@ const PhotoGallery = () => {
         <>
             <div className="grid grid-cols-1 gap-4 mx-12 aspec">
                 <div className="UN">
-                <p className="hone font-bold text-5xl text-center my-8 fon">FURNITURE</p>
+                <p className="hone font-bold text-5xl text-center my-8 fon">Chairs</p>
                     <div className="grid grid-cols-3 gap-4 CLASS">
                         <a href="/"><img src="/Chair1.jpg" alt="Loading..." className="GT"/></a>
                         <a href="/"><img src="/Chair2.jpg" alt="Loading..." className="GT"/></a>
                         <a href="/"><img src="/Chair3.jpg" alt="Loading..." className="GT"/></a>
                         <a href="/"><img src="/Chair4.jpg" alt="Loading..." className="GT"/></a>
                         <a href="/"><img src="/Chair5.jpg" alt="Loading..." className="GT"/></a>
+                        <a href="/"><img src="/Chair6.jpg" alt="Loading..." className="GT"/></a>
                     </div>
                 </div>
                 <div className="next">
-                    <p className="hone font-bold text-5xl text-center my-8 fon">CLOTHES <span className="font-semibold text-3xl XL text-blue-500">(Uni<span className="text-pink-500">sex)</span></span></p>
+                    <p className="hone font-bold text-5xl text-center my-8 fon">Bed Sets</p>
                     <div className="grid grid-cols-3 gap-4 CLASS">
-                        <a href="/"><img src="/jeans.jpg" alt="Loading..." className=""/></a>
-                        <a href="/"><img src="/suit.jpg" alt="Loading..." className=""/></a>
-                        <a href="/"><img src="/sweater.jpg" alt="Loading..." className=""/></a>
-                        <a href="/"><img src="/unisex.jpg" alt="Loading..." className=""/></a>
-                        <a href="/"><img src="/sweater2.jpg" alt="Loading..." className=""/></a>
+                        <a href="/"><img src="/Bed1.jpg" alt="Loading..." className=""/></a>
+                        <a href="/"><img src="/Bed2.jpg" alt="Loading..." className=""/></a>
+                        <a href="/"><img src="/Bed3.jpg" alt="Loading..." className=""/></a>
+                        <a href="/"><img src="/Bed4.jpg" alt="Loading..." className=""/></a>
+                        <a href="/"><img src="/Bed5.jpg" alt="Loading..." className=""/></a>
+                        <a href="/"><img src="/Bed6.jpg" alt="Loading..." className=""/></a>
                     </div>
                 </div>
             </div>
@@ -41,7 +43,7 @@ const PhotoGallery = () => {
                             <a href="/" className="text-3xl ml-10 mt-8 text-white"><FaWhatsapp /></a>
                             <a href="/" className="text-3xl ml-10 mt-8 text-white"><SiInstagram /></a>
                         </div>
-                        <p className="text-gray-500 mt-16 text-white whitespace-nowrap RES">Copyright © AgniHD 2017 All Rights Reserved.</p>
+                        <p className="text-white ml-6 mt-16 text-white whitespace-nowrap RES">Copyright © AgniHD 2017 All Rights Reserved.</p>
                     </div>
                     <div className="two ml-auto">
                         <div className="Sec sm:flex FLEX">
