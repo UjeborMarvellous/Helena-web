@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import {Transition} from "@headlessui/react";
+import Search from "./Search";
 import { GoSearch } from "react-icons/go"
+import { useSnipcart } from "use-snipcart";
 
-
-function Navbar() {
+const Navbar = ({setShow, size}) => {
     const [isOpen,setIsOpen] = useState(false);
+    const {cart = {} } = useSnipcart();
+    // const [show,setShow] = useState(true)
     return ( 
         <div className="">
             <nav className="w-full stem BG z-10">
@@ -25,14 +28,16 @@ function Navbar() {
                                     </div>
                                     <div className="btn md">
                                         <div className="flex">
-                                            <a href="/Store" className="cursor-pointer text-black font-semibold px-3 py-1 text-md hover:font-block border-current border-2">Contact us</a>
-                                            <p className="cursor-pointer text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</p>
-                                            <a href="/" className="my-auto text-xl font-thin"><GoSearch /></a>
-                                            <a href="/" className="cursor-pointer text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>
+                                            <a href="/Store" className="cursor-pointer text-black font-semibold px-3 py-1 text-md hover:font-block relative border-current border-2">Contact us</a>
+                                            {/* {
+                                                show?<input type="search" />:null
+                                            }
+                                            <GoSearch onClick={()=>setShow(true)} className="ml-12 font-thin text-3xl cursor-pointer"/> */}
+                                            <Search />
+                                                <p className="snipcart-checkout cursor-pointer text-black font-thin px-3 py-2 text-md hover:font-block">Cart<span className="text-black font-semibold ml-2">${cart.subtotal?.toFixed(3)}</span></p>
                                         </div>
                                     </div>
                                </div>
-                            
                             </div>
                             <div className="mr-10 flex lg:hidden">
                                 <button onClick={() => setIsOpen(!isOpen)} type="button" className="bg-black inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-black focus: outline-none focus:ring-offset-2 focus:ring-offset-black focus:ring-white" aria-controls="mobile-menu" aria-expanded="false"><span className="sr-only">Open main menu</span>
@@ -63,7 +68,7 @@ function Navbar() {
                                     <a href="/Store" className="cursor-pointer whitespace-nowrap text-black font-semibold px-6 py-2 text-md hover:font-block border-current border-2">Contact us</a>
                                     <a href="/" className="cursor-pointer whitespace-nowrap text-black font-semibold px-3 py-2 text-md hover:font-block">My Account</a>
                                     <a href="/" className="my-auto text-xl font-thin hidden"><GoSearch /></a>
-                                    <a href="/" className="cursor-pointer hidden text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>
+                                    <a href="/" className="cursor-pointer text-black font-thin px-3 py-2 text-md hover:font-block">Cart(0) $0.00</a>
                                 </div>
                             </div>
                         </div>

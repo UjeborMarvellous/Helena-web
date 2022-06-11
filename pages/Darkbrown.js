@@ -21,17 +21,15 @@ function Darkbrown() {
                             <h1 className="text-lg">Categories</h1>
                             <p className=" border-current border-b mt-2 w-8"></p>
                             <div className="input">
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Bags&nbsp; & &nbsp; Backpacks</a> <span className="ml-9 text-gray-300 font-bold">(4)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Braclets</a><span className="ml-32 text-gray-300 font-bold">(2)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Dresses</a><span className="ml-32 text-gray-300 font-bold">(6)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Earrings</a><span className="ml-32 text-gray-300 font-bold">(2)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Essentials</a><span className="ml-28 text-gray-300 font-bold">(5)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Gift &nbsp; Ideas</a><span className="ml-24 text-gray-300 font-bold">(4)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Kitchen</a><span className="ml-32 text-gray-300 font-bold">(3)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Rings</a><span className="ml-32 text-gray-300 font-bold">(2)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Shoes</a><span className="ml-32 text-gray-300 font-bold">(4)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Sweaters</a><span className="ml-28 text-gray-300 font-bold">(10)</span></p>
-                                <p className=" mt-3 ml-6"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Wedding</a><span className="ml-28 text-gray-300 font-bold">(1)</span></p>
+                                <p className=" mt-3 ml-6 whitespace-nowrap"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Television set</a> <span className="ml-9 text-gray-300 font-bold">(4)</span></p>
+                                <p className=" mt-3 ml-6 whitespace-nowrap"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Bed set</a><span className="ml-16 text-gray-300 font-bold">(2)</span></p>
+                                <p className=" mt-3 ml-6 whitespace-nowrap"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Kitchen set</a><span className="ml-12 text-gray-300 font-bold">(6)</span></p>
+                                <p className=" mt-3 ml-6 whitespace-nowrap"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Electrical appliances</a><span className="ml-8 text-gray-300 font-bold">(2)</span></p>
+                                <p className=" mt-3 ml-6 whitespace-nowrap"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Couch</a><span className="ml-28 text-gray-300 font-bold">(5)</span></p>
+                                <p className=" mt-3 ml-6 whitespace-nowrap"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Pillow Cassing</a><span className="ml-24 text-gray-300 font-bold">(4)</span></p>
+                                <p className=" mt-3 ml-6 whitespace-nowrap"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Kitchen</a><span className="ml-32 text-gray-300 font-bold">(3)</span></p>
+                                <p className=" mt-3 ml-6 whitespace-nowrap"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Dining Set</a><span className="ml-32 text-gray-300 font-bold">(2)</span></p>
+                                <p className=" mt-3 ml-6 whitespace-nowrap"><input type="checkbox" /><a href="/" className="text-sm">&nbsp;&nbsp;Plastics</a><span className="ml-32 text-gray-300 font-bold">(4)</span></p>
                             </div>
                             <hr  className="my-6"/>
                             <div className="color mt-16">
@@ -133,8 +131,8 @@ function Darkbrown() {
                             )}
                         </Transition>
                                 <div className="hs ml-12">
-                                    <select name="Clothes" className="bg-none border-none p">
-                                        <option value="Default sorting" className="outline-none hover:bg-white">Default sorting</option>
+                                    <select name="Clothes" className="bg-none border-none p focus:outline-none">
+                                        <option value="Default sorting" className="outline-none focus:outline-none hover:bg-white">Default sorting</option>
                                         <option value="sort by popularity" className="outline-none hover:bg-white">sort by popularity</option>
                                         <option value="sort by latest" className="outline-none hover:bg-white">sort by latest</option>
                                         <option value="sort by price:low to high" className="outline-none hover:bg-white">sort by price:low to high</option>
