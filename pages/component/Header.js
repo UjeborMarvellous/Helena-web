@@ -8,7 +8,7 @@ export default function Header() {
                 <img src="/1.jpg" alt="Loading..." className="BA absolute"/>
                 <div className="relative pt">
                     <h1 className='text-6xl font-semibold FG'>Ace Chair Nist <br /> Beige</h1>
-                    <button className="BTN bg-black text-white font-semibold py-4 mt-8 px-8 flex z-50 hover:border-2 hover:bg-transparent hover:text-black hover:border-black hover:py-4 hover:px-8 ">Explore More&nbsp;&nbsp;&nbsp;<span className="my-auto text-2xl font-thin"><BsArrowRight /></span></button>
+                    <a href="/component/Shop-file/Shop"><button className="BTN bg-black text-white font-semibold py-4 mt-8 px-8 flex z-50 hover:border-2 hover:bg-transparent hover:text-black hover:border-black hover:py-4 hover:px-8 ">Explore More&nbsp;&nbsp;&nbsp;<span className="my-auto text-2xl font-thin"><BsArrowRight /></span></button></a>
                 </div>
             </div>
             <p className="text-center font-normal text-black text-4xl relative my-8 Fm">Gorgeous collection to choose from. We picked every item with care <span className="pt-4"> <br />you must try atleast once in your lifetime</span></p>
