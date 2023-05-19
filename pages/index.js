@@ -2,9 +2,7 @@ import Head from 'next/head'
 import Header from './component/Header'
 import Footer from './component/Footer'
 import styles from '../styles/Home.module.css'
-import Cart from "./component/cart";
-// import{ Head, Main, NextScript } from 'next/document'
-// import Furniture from './component/Image/Furniture';
+// import Cart from "./component/cart";
 import React, { useState, useEffect } from "react";
 
 

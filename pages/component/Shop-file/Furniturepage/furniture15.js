@@ -3,6 +3,8 @@ import { BsTwitter } from "react-icons/bs"
 import { FaWhatsapp } from "react-icons/fa"
 import { SiInstagram } from "react-icons/si"
 import { FaAngleRight } from "react-icons/fa"
+import Link from 'next/link';
+import Footertwo from "./Footertwo"
 import { FaAngleLeft } from "react-icons/fa"
 
 
@@ -16,14 +18,14 @@ const Cloth = () => {
                     </div>
                     <div className="text ml-12">
                         <div className="toggle p-4 rounded-full shadow-lg w-12 fixed ml">
-                            <a href="./furniture16"><FaAngleRight className="text-black font-thin"/></a>
+                            <Link href="./furniture16"><FaAngleRight className="text-black font-thin"/></Link>
                         </div>
                         <div className="toggle p-4 rounded-full shadow-lg w-12 fixed MR mt-32">
-                            <a href="./furniture14"><FaAngleLeft className="text-black font-thin"/></a>
+                            <Link href="./furniture14"><FaAngleLeft className="text-black font-thin"/></Link>
                         </div>
                         <nav className="flex">
-                            <a className="text-sm font-semibold text-black" href="/">Home &nbsp;/&nbsp;</a>
-                            <a className="text-sm font-semibold text-black" href="/">Sweaters &nbsp;/&nbsp;</a>
+                            <Link className="text-sm font-semibold text-black" href="/">Home &nbsp;/&nbsp;</Link>
+                            <Link className="text-sm font-semibold text-black" href="/">Sweaters &nbsp;/&nbsp;</Link>
                             <p className="text-sm font-semibold text-gray-300"> Regular Fit V-Neck Sweater</p>
                         </nav>
                         <p className="text-4xl xl whitespace-nowrap font-normal mt-6">Regular Fit V-Neck Sweater</p>
@@ -32,19 +34,19 @@ const Cloth = () => {
                         <div className="color mt-8">
                             <h1 className="text-xl">Size</h1>
                             <div className="col flex mt-3">
-                                <a href="/"><p className="px-4 py-2 border border-gray-300 text-sm text-gray-400 font-semibold">L</p></a>
-                                <a href="/"><p className="px-4 py-2 border border-gray-300 ml-2 text-sm text-gray-400 font-semibold">M</p></a>
-                                <a href="/"><p className="px-4 py-2 border border-gray-300 ml-2 text-sm text-gray-400 font-semibold">S</p></a>
-                                <a href="/"><p className="px-4 py-2 border border-gray-300 ml-2 text-sm text-gray-400 font-semibold">XL</p></a>
+                                <Link href="/"><p className="px-4 py-2 border border-gray-300 text-sm text-gray-400 font-semibold">L</p></Link>
+                                <Link href="/"><p className="px-4 py-2 border border-gray-300 ml-2 text-sm text-gray-400 font-semibold">M</p></Link>
+                                <Link href="/"><p className="px-4 py-2 border border-gray-300 ml-2 text-sm text-gray-400 font-semibold">S</p></Link>
+                                <Link href="/"><p className="px-4 py-2 border border-gray-300 ml-2 text-sm text-gray-400 font-semibold">XL</p></Link>
                             </div>
                         </div>
                         <div className="color mt-8">
                             <h1 className="text-lg">Colours</h1>
                             <div className="col flex mt-2">
-                                <a href="/Pink"><p className="p-6 bg-red-200"></p></a>
-                                <a href="/Darkblue"><p className="p-6 bg-gray-800 ml-4"></p></a>
-                                <a href="/Darkbrown"><p className="p-6 bg-orange-900 ml-4"></p></a>
-                                <a href="/Lightbrown"><p className="p-6 bg-yellow-900 ml-4"></p></a>
+                                <Link href="/Pink"><p className="p-6 bg-red-200"></p></Link>
+                                <Link href="/Darkblue"><p className="p-6 bg-gray-800 ml-4"></p></Link>
+                                <Link href="/Darkbrown"><p className="p-6 bg-orange-900 ml-4"></p></Link>
+                                <Link href="/Lightbrown"><p className="p-6 bg-yellow-900 ml-4"></p></Link>
                             </div>
                         </div>
                         <form className="color mt-8 flex">
@@ -57,14 +59,14 @@ const Cloth = () => {
                         </div>
                         <div className="swet mt-8 flex gap-6 ">
                             <p className="text-sm text-gray-400">SKU: #1021954</p>
-                            <p className="text-sm text-gray-400">Category: <span className="text-sm text-black"><a href="/"> Sweaters</a></span></p>
+                            <p className="text-sm text-gray-400">Category: <span className="text-sm text-black"><Link href="/"> Sweaters</Link></span></p>
                         </div>
                     </div>
                 </div>
                 <div className="secd">
                     <nav className="text-center">
-                        <a href="/" className="text-center ml-4">Description</a>
-                        <a href="/" className="text-center ml-4 text-gray-400">Additional information</a>
+                        <Link href="/" className="text-center ml-4">Description</Link>
+                        <Link href="/" className="text-center ml-4 text-gray-400">Additional information</Link>
                     </nav>
                     <p className="mb-6 mt-8 WID text-center w-3/5 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, alias! Magni voluptas vel fugit non et, necessitatibus culpa molestiae repellat laborum velit provident obcaecati unde illo temporibus pariatur sint ab dolores vitae, blanditiis est. Facere libero error corporis perferendis! Animi officiis fugit autem dolor rem possimus placeat vitae sit in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, voluptatem.</p>
                 </div>
@@ -109,29 +111,7 @@ const Cloth = () => {
                         </figure>
                     </div>
                 </div>
-                <div className="bg-black p-12">
-                    <div className="grid grid-cols-2 gap-2 GB">
-                        <div className="">
-                            <h1 className="font-bold ml-auto mt-16 lg:block lg:mx-auto mr-32  text-white text-2xl p-3 lg:hidden rounded-full border-4 border-white block text-center w-16">h.</h1>
-                            <div className="Thrid flex">
-                                <a href="/" className="text-3xl ml-10 mt-8 text-white"><FaFacebookF /></a>
-                                <a href="/" className="text-3xl ml-10 mt-8 text-white"><BsTwitter /></a>
-                                <a href="/" className="text-3xl ml-10 mt-8 text-white"><FaWhatsapp /></a>
-                                <a href="/" className="text-3xl ml-10 mt-8 text-white"><SiInstagram /></a>
-                            </div>
-                            <p className="text-gray-500 mt-16 text-white whitespace-nowrap RES">Copyright © AgniHD 2017 All Rights Reserved.</p>
-                        </div>
-                        <div className="two ml-auto">
-                            <div className="Sec sm:flex FLEX">
-                                <p className="mt-2"><a href="/" className="mt-12 text-white whitespace-nowrap">Terms & Policies&nbsp;/&nbsp;</a></p>
-                                <p className="mt-2"><a href="/" className="mt-12 text-white whitespace-nowrap">FAQ&nbsp;/&nbsp;</a></p>
-                                <p className="mt-2"><a href="/" className="mt-12 text-white whitespace-nowrap">Contact Us&nbsp;/&nbsp;</a></p>
-                                <p className="mt-2"><a href="/" className="mt-12 text-white whitespace-nowrap">About Us</a></p>
-                            </div>
-                            <h1 className="sA font-bold ml-auto mt-16 text-white text-2xl p-3 rounded-full border-4 border-white block text-center w-16 HK ABS">h.</h1>
-                        </div>
-                    </div>
-                </div>
+                <Footertwo />
             </div>
         </>
      );

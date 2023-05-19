@@ -1,6 +1,7 @@
 import { FaFacebookF } from "react-icons/fa"
 import { BsTwitter } from "react-icons/bs"
 import { FaWhatsapp } from "react-icons/fa"
+import Link from 'next/link';
 import { SiInstagram } from "react-icons/si"
 
 export default function Fotter() {
@@ -12,16 +13,16 @@ export default function Fotter() {
                 <p className="text-gray-500 whitespace-nowrap">Copyright © AgniHD 2017 All Rights Reserved.</p>
             </div>
             <div className="Sec ml-12">
-                <p className="mt-2"><a href="/" className="mt-12">Terms & Policies</a></p>
-                <p className="mt-2"><a href="/" className="mt-12">FAQ</a></p>
-                <p className="mt-2"><a href="/" className="mt-12">Contact Us</a></p>
-                <p className="mt-2"><a href="/" className="mt-12">About Us</a></p>
+                <p className="mt-2"><Link href="/" className="mt-12">Terms & Policies</Link></p>
+                <p className="mt-2"><Link href="/" className="mt-12">FAQ</Link></p>
+                <p className="mt-2"><Link href="/" className="mt-12">Contact Us</Link></p>
+                <p className="mt-2"><Link href="/" className="mt-12">About Us</Link></p>
             </div>
             <div className="Thrid flex">
-                <a href="/" className="text-3xl ml-4 mt-8"><FaFacebookF /></a>
-                <a href="/" className="text-3xl ml-4 mt-8"><BsTwitter /></a>
-                <a href="/" className="text-3xl ml-4 mt-8"><FaWhatsapp /></a>
-                <a href="/" className="text-3xl ml-4 mt-8"><SiInstagram /></a>
+                <p className="text-3xl ml-4 mt-8 cursor-pointer"><Link href="/" ><FaFacebookF /></Link></p>
+                <p className="text-3xl ml-4 mt-8 cursor-pointer"><Link href="/" ><BsTwitter /></Link></p>
+                <p className="text-3xl ml-4 mt-8 cursor-pointer"><Link href="/" ><FaWhatsapp /></Link></p>
+                <p className="text-3xl ml-4 mt-8 cursor-pointer"><Link href="/" ><SiInstagram /></Link></p>
             </div>
             <div className="forth">
                <h1 className="font-thin text-2xl my-4">Stay Updated</h1>
