@@ -44,8 +44,8 @@ const Store = () => {
             </div>
             <div>
               <p className="text-sm">
-                <a href="/"><span>Home</span></a>
-                <a href="/Store"><span className="text-secondary font-semibold ml-8">Contact Us</span></a>
+                <Link href="/"><span>Home</span></Link>
+                <Link href="/Store"><span className="text-secondary font-semibold ml-8">Contact Us</span></Link>
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ const Store = () => {
                   </div>
                   <div className="col-span-3 py-6">
                     <h5 className="font-semibold">Email</h5>
-                    <a href="mailto:marvic230@gmail.com" className="text-blue-400 hover:text-blue-600 hover:underline">marvic230@gmail.com</a>
+                    <Link href="mailto:marvic230@gmail.com" className="text-blue-400 hover:text-blue-600 hover:underline">marvic230@gmail.com</Link>
                   </div>
                 </div>
                 <div
@@ -81,14 +81,14 @@ const Store = () => {
                   </div>
                   <div className="col-span-3 py-6">
                     <h5 className="font-semibold">Phone</h5>
-                    <a
+                    <Link
                     href="https://wa.me/2347081641127"
                     className="flex text-blue-400 hover:text-blue-600 hover:underline"
                     rel="noreferrer"
                     target="_blank"
                   >
                     +2347081641127
-                  </a>
+                  </Link>
                   </div>
                 </div>
             </div>
