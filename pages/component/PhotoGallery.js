@@ -1,7 +1,4 @@
-import { FaFacebookF } from "react-icons/fa"
-import { BsTwitter } from "react-icons/bs"
-import { FaWhatsapp } from "react-icons/fa"
-import { SiInstagram } from "react-icons/si"
+import Footertwo from "./Footertwo"
 
 const PhotoGallery = () => {
     return ( 
@@ -10,52 +7,30 @@ const PhotoGallery = () => {
                 <div className="UN">
                 <p className="hone font-bold text-5xl text-center my-8 fon">Chairs</p>
                     <div className="grid grid-cols-3 gap-4 CLASS">
-                        <a href="/"><img src="/Chair1.jpg" alt="Loading..." className="GT"/></a>
-                        <a href="/"><img src="/Chair2.jpg" alt="Loading..." className="GT"/></a>
-                        <a href="/"><img src="/Chair3.jpg" alt="Loading..." className="GT"/></a>
-                        <a href="/"><img src="/Chair4.jpg" alt="Loading..." className="GT"/></a>
-                        <a href="/"><img src="/Chair5.jpg" alt="Loading..." className="GT"/></a>
-                        <a href="/"><img src="/Chair6.jpg" alt="Loading..." className="GT"/></a>
+                        <img src="/Chair1.jpg" alt="Loading..." className="GT"/>
+                        <img src="/Chair2.jpg" alt="Loading..." className="GT"/>
+                        <img src="/Chair3.jpg" alt="Loading..." className="GT"/>
+                        <img src="/Chair4.jpg" alt="Loading..." className="GT"/>
+                        <img src="/Chair5.jpg" alt="Loading..." className="GT"/>
+                        <img src="/Chair6.jpg" alt="Loading..." className="GT"/>
                     </div>
                 </div>
                 <div className="next">
                     <p className="hone font-bold text-5xl text-center my-8 fon">Bed Sets</p>
                     <div className="grid grid-cols-3 gap-4 CLASS">
-                        <a href="/"><img src="/Bed1.jpg" alt="Loading..." className=""/></a>
-                        <a href="/"><img src="/Bed2.jpg" alt="Loading..." className=""/></a>
-                        <a href="/"><img src="/Bed3.jpg" alt="Loading..." className=""/></a>
-                        <a href="/"><img src="/Bed4.jpg" alt="Loading..." className=""/></a>
-                        <a href="/"><img src="/Bed5.jpg" alt="Loading..." className=""/></a>
-                        <a href="/"><img src="/Bed6.jpg" alt="Loading..." className=""/></a>
+                        <img src="/Bed1.jpg" alt="Loading..." className=""/>
+                        <img src="/Bed2.jpg" alt="Loading..." className=""/>
+                        <img src="/Bed3.jpg" alt="Loading..." className=""/>
+                        <img src="/Bed4.jpg" alt="Loading..." className=""/>
+                        <img src="/Bed5.jpg" alt="Loading..." className=""/>
+                        <img src="/Bed6.jpg" alt="Loading..." className=""/>
                     </div>
                 </div>
             </div>
             <div className="read">
                 <p className="text-center mt-10 text-xl text-blue-500 underline">VIEW MORE</p>
             </div>
-            <div className="bg-black p-4 mt-12">
-                <div className="grid grid-cols-2 gap-2 GB">
-                    <div className="">
-                        <h1 className="font-bold ml-auto mt-16 lg:block lg:mx-auto mr-32  text-white text-2xl p-3 lg:hidden rounded-full border-4 border-white block text-center w-16">h.</h1>
-                        <div className="Thrid flex">
-                            <a href="/" className="text-3xl ml-10 mt-8 text-white"><FaFacebookF /></a>
-                            <a href="/" className="text-3xl ml-10 mt-8 text-white"><BsTwitter /></a>
-                            <a href="/" className="text-3xl ml-10 mt-8 text-white"><FaWhatsapp /></a>
-                            <a href="/" className="text-3xl ml-10 mt-8 text-white"><SiInstagram /></a>
-                        </div>
-                        <p className="text-white ml-6 mt-16 text-white whitespace-nowrap RES">Copyright © AgniHD 2017 All Rights Reserved.</p>
-                    </div>
-                    <div className="two ml-auto">
-                        <div className="Sec sm:flex FLEX">
-                            <p className="mt-2"><a href="/" className="mt-4 text-white whitespace-nowrap">Terms & Policies&nbsp;/&nbsp;</a></p>
-                            <p className="mt-2"><a href="/" className="mt-4 text-white whitespace-nowrap">FAQ&nbsp;/&nbsp;</a></p>
-                            <p className="mt-2"><a href="/" className="mt-4 text-white whitespace-nowrap">Contact Us&nbsp;/&nbsp;</a></p>
-                            <p className="mt-2"><a href="/" className="mt-4 text-white whitespace-nowrap">About Us</a></p>
-                        </div>
-                        <h1 className="sA font-bold ml-auto mt-4 text-white text-2xl p-3 rounded-full border-4 border-white block text-center w-16 HK ABS">h.</h1>
-                    </div>
-                </div>
-            </div>
+            <Footertwo />
         </>
      );
 }

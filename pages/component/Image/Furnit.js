@@ -1,10 +1,15 @@
-import React from 'react'
+import {useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Furnit = ({item, handleClick}) => {
     const {id, title, price, img} = item;
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      });
     return ( 
         <>
-            <div className="cards">
+            <div className="cards" data-aos="fade-up">
                 <img src={img} alt="" className='h-72 contain'/>
                 <div className="details mb-8">
                     <p className='text-black'>{title}</p>

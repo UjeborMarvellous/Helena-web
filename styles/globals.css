@@ -6,7 +6,10 @@
     margin: 0;
     padding: 0;
   }
-  
+  .ma {
+    font-size: 5rem;
+  }
+
   article {
     width: 60%;
     margin: auto;
@@ -168,6 +171,12 @@
 #close {
     top: 2rem;
     right: 3rem;
+}
+.grids {
+    aspect-ratio: 12/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    object-fit: contain;
 }
 @media screen and (max-width:768px) {
     .MN {
@@ -370,7 +379,7 @@
         position: sticky;
     }
     .BA {
-        margin-left: 5%;
+        margin-left: 3%;
         width: 100%;
         height: 300px;
     }
